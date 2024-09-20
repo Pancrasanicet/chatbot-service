@@ -16,7 +16,7 @@ const Welcome = () => {
     if (currentMessage < messages.length) {
       const timer = setTimeout(() => {
         setCurrentMessage(currentMessage + 1);
-      }, 200); 
+      }, 700); 
       return () => clearTimeout(timer);
     }
   }, [currentMessage, messages.length]);
@@ -24,7 +24,7 @@ const Welcome = () => {
   return (
     <div className="welcome-container">
       {messages.slice(0, currentMessage).map((message) => (
-        <p key={message.id} className={`message message-${message.id} text-left bg-yellow-500 text-white py-8`}>
+        <p key={message.id} className={`message message-${message.id} text-balance text-left bg-green-500 text-white py-8 rounded-none`}>
           {message.text}
         </p>
       ))}
