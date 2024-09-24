@@ -1,7 +1,7 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from './Components/Login';
-import Register from './Components/Register';
-import Chat from './Components/Chat';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Login from "./Components/Login";
+import Register from "./Components/Register";
+import Chat from "./Components/Chat";
 
 function App() {
   return (
@@ -16,4 +16,3 @@ function App() {
 }
 
 export default App;
-

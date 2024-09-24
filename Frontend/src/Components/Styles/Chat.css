@@ -28,11 +28,12 @@
   padding: 10px;
   background-color: #fff;
   border-top: 1px solid #ddd;
-  position: sticky;
+  position: relative;
   bottom: 0;
 }
 .Welcome-Chat{
   margin: 10px 10px;
+  overflow: auto
 }
 /* Message bot et utilisateur */
 .message {
@@ -89,4 +90,9 @@
   border-radius: 5px;
   background: linear-gradient(90deg, rgba(136, 170, 201, 1) 14%, rgba(239, 242, 249, 1) 88%);
   padding: 5%;
+}
+
+/*Buttons Css*/
+.buttonscss{
+  width: clamp(200px, 60vw, 500px);
 }
